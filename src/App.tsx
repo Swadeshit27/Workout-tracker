@@ -7,21 +7,21 @@ export default function App() {
     <Routes>
       <Route
         path="/"
-        element={<Layout/>}
+        element={<HomePage1 />}
+      />
+      <Route
+        path="/"
+        element={<Layout />}
       >
         <Route
-          path=""
-          element={<Tracker/>}
+          path="/tracker"
+          element={<Tracker />}
         />
         <Route
           path="/schedule"
-          element={<Schedule/>}
+          element={<Schedule />}
         />
       </Route>
-      <Route
-        path="/track-goal"
-        element={<HomePage1 />}
-      />
       <Route
         path="/get-burn"
         element={<HomePage2 />}

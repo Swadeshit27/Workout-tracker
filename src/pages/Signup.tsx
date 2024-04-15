@@ -12,7 +12,7 @@ const Signup = () => {
     const create = (data: any) => {
         if (isChecked) {
             console.log(data)
-            navigate('/tracker')
+            navigate('/goals')
         }
     }
 

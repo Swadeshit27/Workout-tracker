@@ -13,6 +13,7 @@ const Login = () => {
 
     const userLogin = (data: any) => {
         console.log(data);
+        navigate('/tracker')
     }
 
     return (

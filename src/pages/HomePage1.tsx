@@ -8,7 +8,7 @@ function HomePage1() {
   return (
     <div className=" h-screen max-w-[475px] w-full font-Montserrat px-4 py-11 relative">
       <Link
-        to={'/demo-2'}
+        to={'/get-burn'}
         className="block text-base text-link font-medium text-end underline cursor-pointer"
       >
         Skip
@@ -18,14 +18,14 @@ function HomePage1() {
       </div>
       <div>
         <h1 className=" text-mediumBlack text-xl font-semibold py-2">Track Your Goal</h1>
-        <p className=" text-lighterGray text-base font-medium">
-          Don’t worry if you have trouble determining your goals, We can help you determine your goals and track your goals
+        <p className=" text-lighterGray text-base font-medium mb-6">
+          Don&apos;t worry if you have trouble determining your goals, We can help you determine your goals and track your goals
         </p>
       </div>
-      <div className=" absolute bottom-11 right-4">
+      <div className=" fixed bottom-11 right-4">
         <Button
           className=" rounded-full"
-          onClick={()=>navigate('/demo-2')}
+          onClick={()=>navigate('/get-burn')}
         >
           <IoIosArrowForward size={20} />
         </Button>

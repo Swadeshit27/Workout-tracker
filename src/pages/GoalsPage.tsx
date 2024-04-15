@@ -34,6 +34,7 @@ const GoalsPage = () => {
       </div>
       <Button
         className=" rounded-xl mb-8"
+        type="submit"
       >Confirm</Button>
     </form>
   )

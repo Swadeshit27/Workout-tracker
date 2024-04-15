@@ -19,10 +19,10 @@ function HomePage2() {
             <div>
                 <h1 className=" text-mediumBlack text-xl font-semibold py-2">Get Burn</h1>
                 <p className=" text-lighterGray text-base font-medium">
-                    Let’s keep burning to achieve your goals, it hurts only temporarily, if you give up now you will be in pain forever
+                    Let&apos;s keep burning to achieve your goals, it hurts only temporarily, if you give up now you will be in pain forever
                 </p>
             </div>
-            <div className=" absolute bottom-11 right-4">
+            <div className=" fixed bottom-11 right-4">
                 <Button
                     className=" rounded-full"
                     onClick={() => navigate('/signup')}

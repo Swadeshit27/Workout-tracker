@@ -3,7 +3,7 @@ import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 
 const Schedule = () => {
     return (
-        <div className=" max-w-[475px] w-full h-screen py-11 font-Montserrat relative">
+        <div className=" max-w-[475px] w-full h-screen py-11 font-Montserrat relative pb-24">
             <div className=" my-2 relative px-4">
                 <div className=" absolute top-1 left-0 h-5 w-5 rounded bg-lightestGray flex justify-center items-center">
                     <IoIosArrowBack />
@@ -97,7 +97,7 @@ const Schedule = () => {
                     <p className="border-b-[0.5px] border-lightGray "></p>
                 </div>
             </div>
-            <button className=" h-[63px] w-[63px] rounded-full bg-btn2Gradient absolute bottom-[120px] right-4 shadow-btnShadow text-4xl font-Montserrat font-[400] text-white">+</button>
+            <button className=" h-[63px] w-[63px] rounded-full bg-btn2Gradient fixed bottom-[120px] right-4 shadow-btnShadow text-4xl font-Montserrat font-[400] text-white">+</button>
         </div>
     )
 }
