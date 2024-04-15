@@ -19,11 +19,11 @@ export default function App() {
         />
       </Route>
       <Route
-        path="/demo-1"
+        path="/track-goal"
         element={<HomePage1 />}
       />
       <Route
-        path="/demo-2"
+        path="/get-burn"
         element={<HomePage2 />}
       />
       <Route

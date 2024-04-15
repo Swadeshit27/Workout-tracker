@@ -16,7 +16,7 @@ const Login = () => {
     }
 
     return (
-        <div className='h-screen w-full max-w-[375px] px-4 py-8 flex flex-col justify-between'>
+        <div className='h-screen w-full max-w-[475px] px-4 py-8 flex flex-col justify-between'>
             <h2 className=" max-sm:text-xl font-Roboto font-semibold">Welcome Back</h2>
             <form
                 onSubmit={handleSubmit(userLogin)}

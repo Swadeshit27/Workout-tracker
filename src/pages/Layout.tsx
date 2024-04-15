@@ -4,12 +4,10 @@ import { Navbar } from "../components"
 
 const Layout = () => {
   return (
-    <div>
-      <div>
-        <Outlet />
-      </div>
+    <>
+      <Outlet />
       <Navbar />
-    </div>
+    </>
   )
 }
 

@@ -12,7 +12,7 @@ const GoalsPage = () => {
   return (
     <form
       onSubmit={submit}
-      className=' h-screen max-w-[375px] w-full px-4 py-11 flex flex-col justify-between'
+      className=' h-screen max-w-[475px] w-full px-4 py-11 flex flex-col justify-between'
     >
       <div>
         <h1 className=' text-xl text-mediumBlack font-Montserrat font-semibold text-center my-2'>What are your goals?</h1>

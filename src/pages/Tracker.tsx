@@ -9,7 +9,7 @@ import {
 
 const Tracker = () => {
   return (
-    <div className=" max-w-[375px] w-full h-screen py-11 px-4 font-Montserrat">
+    <div className=" max-w-[475px] w-full h-screen overflow-y-scroll py-11 px-4 font-Montserrat">
       <div className=" my-2 relative">
         <div className=" absolute top-1 left-0 h-5 w-5 rounded bg-lightestGray flex justify-center items-center">
           <IoIosArrowBack />

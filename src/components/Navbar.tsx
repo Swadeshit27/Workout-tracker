@@ -9,7 +9,7 @@ import Button from './Button'
 
 const Navbar = () => {
     return (
-        <nav className="absolute bottom-0 h-[76px] z-50 w-full flex items-center justify-evenly bg-white  ">
+        <nav className="fixed bottom-0 h-[76px] z-50 w-full flex items-center justify-evenly bg-white  ">
             <li className=' list-none'>
                 <img src={homeIcon} alt="home-icon" />
             </li>

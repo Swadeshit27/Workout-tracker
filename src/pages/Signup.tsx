@@ -17,7 +17,7 @@ const Signup = () => {
     }
 
     return (
-        <div className='h-screen max-w-[375px] w-full px-4 py-8 flex flex-col justify-between'>
+        <div className='h-screen max-w-[475px] w-full px-4 py-8 flex flex-col justify-between'>
             <h2 className=" max-sm:text-xl font-Roboto font-semibold">Create an account</h2>
             <form
                 onSubmit={handleSubmit(create)}

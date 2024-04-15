@@ -6,7 +6,7 @@ import { IoIosArrowForward } from "react-icons/io";
 function HomePage1() {
   const navigate = useNavigate()
   return (
-    <div className=" h-screen max-w-[375px] w-full font-Montserrat px-4 py-11 relative">
+    <div className=" h-screen max-w-[475px] w-full font-Montserrat px-4 py-11 relative">
       <Link
         to={'/demo-2'}
         className="block text-base text-link font-medium text-end underline cursor-pointer"

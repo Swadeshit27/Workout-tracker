@@ -3,7 +3,7 @@ import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 
 const Schedule = () => {
     return (
-        <div className=" max-w-[375px] w-full h-screen py-11 font-Montserrat relative">
+        <div className=" max-w-[475px] w-full h-screen py-11 font-Montserrat relative">
             <div className=" my-2 relative px-4">
                 <div className=" absolute top-1 left-0 h-5 w-5 rounded bg-lightestGray flex justify-center items-center">
                     <IoIosArrowBack />
